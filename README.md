@@ -25,7 +25,22 @@ Fluent Emoji but organized by unicodes instead of CLDR names.
 - Unicode: https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets/1f44b-1f3ff_3d.png
 - Unicode + Style: https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets/1f44b-1f3ff_flat.svg
 
-Note that some emojis, styles, or skintones maybe be missing from the original library.
+### With Modifiers
+
+🧑🏾‍🎨 =  
+　　🧑: `U+1F9D1`  
+　 🏾: `U+1F3FE`  
+　　ZWJ: `U+200D`  
+　　🎨: `U+1F3A8`
+
+Original path: [Artist/Medium-Dark/3D](https://github.com/microsoft/fluentui-emoji/blob/main/assets/Artist/Medium-Dark/3D/artist_3d_medium-dark.png)
+
+- https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets/🧑🏾‍🎨_3d.png
+- https://cdn.jsdelivr.net/gh/shuding/fluentui-emoji-unicode/assets/1f9d1-1f3fe-200d-1f3a8_3d.png
+
+---
+
+_Note that some emojis, styles, or skintones maybe be missing from the original library._
 
 ## Development
 
