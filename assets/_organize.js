@@ -51,7 +51,13 @@ async function processEmojiType(name) {
       // 🥇_flat.svg
       __dirname + "/" + glyph + "_",
       // 1f947_flat.svg
-      __dirname + "/" + unicode.replace("fe0f", "").replaceAll(" ", "-") + "_",
+      __dirname +
+        "/" +
+        unicode
+          .split(" ")
+          .filter((code) => code !== "fe0f")
+          .join("-") +
+        "_",
     ]);
   }
 
